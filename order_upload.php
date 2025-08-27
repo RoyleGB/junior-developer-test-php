@@ -61,7 +61,13 @@ uploadOrders($orders);
 
 function getOrdersForUpload($orders) {
     // filter out orders that have already been uploaded, and only return orders with the status 'ready_to_ship' or 'cancelled'
-    return $orders;
+    if($orders['uploaded_at'] !== null) { // If uploaded_at is not null, it has been uploaded, return empty array
+        return [];
+    }
+
+    if($orders['status'] === 'ready_to_ship' || $orders['status'] === 'cancelled') {
+        return $orders; // Return the order if status is match 'ready_to_ship' or 'cancelled'
+    }
 }
 
 function uploadOrders($orders) {
@@ -92,8 +98,8 @@ function uploadOrders($orders) {
             $order['shipping_address'], // Fix: was using shipping_address instead of billing_address
             $order['billing_address'],
             $order['status'],
-            $order['uploaded_at'] ?? '',
-            $order['created_at'],
+            $order['created_at'] ?? '', // Fix: Switched to uploaded_at instead of created_at based on header format
+            $order['uploaded_at'],
         ]);
     }
     fclose($fp);
