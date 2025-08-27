@@ -1,0 +1,65 @@
+{
+  "product_size_labels": ["8", "10", "12", "14", "16", "18", "20"],
+  "product_title": "Women's Birchdale II Waterproof Jacket",
+  "product_colour": "Wisteria Lilac Hint",
+  "selling_price": 65,
+  "rrp": 100,
+  "product_sku": "RWW455_016",
+  "product_bulletpoints": "<ul>\r\n<li>Waterproof and breathable Isotex 15000 100% polyester stretch fabric - 165gsm</li>\r\n<li>Breathability rating 15,000g/m&sup2;/24 hours</li>\r\n<li>Durable water repellent finish</li>\r\n<li>Taped seams for complete waterproof protection</li>\r\n<li>Mesh lined</li>\r\n<li>Grown on technical hood with adjusters</li>\r\n<li>Hi-tech water repellent centre front zip with inner zip guard and drainage channel</li>\r\n<li>2 zipped lower pockets and 1 zipped chest pocket with hi-tech water repellent zips</li>\r\n<li>Articulated sleeves for enhanced range of movement</li>\r\n<li>Inner zipped security pocket</li>\r\n<li>Adjustable cuffs</li>\r\n<li>Adjustable shockcord hem</li>\r\n</ul>",
+  "product_description": "Weatherproof, breathable and versatile, our Birchdale II women's waterproof jacket is engineered for performance. This jacket offers superior protection against the elements with our ISOTEX 15000 technology, ensuring you stay comfortable in all conditions. The flexible fabric moves with you with every step, stretching and flexing as you're climbing hills or walking through forests, allowing you to focus on the adventure ahead.",
+  "product_offer_label": "10% off Jackets | Code: 10OFF",
+  "media_gallery": [
+    {
+      "image": "https://content.dare2b.com/RWW455_016/550/RWW455_016_01_bynder_defined_type_model_011744024753.jpg",
+      "width": 550,
+      "height": 550,
+      "alt": "Image 1"
+    },
+    {
+      "image": "https://content.dare2b.com/RWW455_016/550/RWW455_016_02_bynder_defined_type_model_021744024753.jpg",
+      "width": 550,
+      "height": 550,
+      "alt": "Image 2"
+    },
+    {
+      "image": "https://content.dare2b.com/RWW455_016/550/RWW455_016_03_bynder_defined_type_model_031744024753.jpg",
+      "width": 550,
+      "height": 550,
+      "alt": "Image 3"
+    },
+    {
+      "image": "https://content.dare2b.com/RWW455_016/550/RWW455_016_04_bynder_defined_type_model_041744024753.jpg",
+      "width": 550,
+      "height": 550,
+      "alt": "Image 4"
+    }
+  ],
+  "alternative_colours": [
+    {
+      "image": "https://content.regatta.com/RWW455_0VB/150/RWW455_0VB_01_bynder_defined_type_model_011742847740.jpg",
+      "alt_text": "Nephrite Green Peach Bloom",
+      "url": "womens-birchdale-ii-waterproof-jacket-nephrite-green-peach-bloom/"
+    },
+    {
+      "image": "https://content.regatta.com/RWW455_1QJ/150/RWW455_1QJ_01_bynder_defined_type_model_011742751298.jpg",
+      "alt_text": "Seal Grey Black",
+      "url": "womens-birchdale-ii-waterproof-jacket-seal-grey-black/",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "image": "https://content.regatta.com/RWW455_64K/150/RWW455_64K_01_bynder_defined_type_model_011742847474.jpg",
+      "alt_text": "Lilas Light Vanilla",
+      "url": "womens-birchdale-ii-waterproof-jacket-lilas-light-vanilla/",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "image": "https://content.regatta.com/RWW455_74T/150/RWW455_74T_01_bynder_defined_type_model_011742847213.jpg",
+      "alt_text": "Navy Icy Morn",
+      "url": "womens-birchdale-ii-waterproof-jacket-navy-icy-morn/
+      "width 150,
+      "height": 150
+    }
+  ]
+}
