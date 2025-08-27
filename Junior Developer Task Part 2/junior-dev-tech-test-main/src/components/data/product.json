@@ -38,28 +38,32 @@
     {
       "image": "https://content.regatta.com/RWW455_0VB/150/RWW455_0VB_01_bynder_defined_type_model_011742847740.jpg",
       "alt_text": "Nephrite Green Peach Bloom",
-      "url": "womens-birchdale-ii-waterproof-jacket-nephrite-green-peach-bloom/"
+      "url": "womens-birchdale-ii-waterproof-jacket-nephrite-green-peach-bloom/",
+      "alt": "Alternate Image 1"
     },
     {
       "image": "https://content.regatta.com/RWW455_1QJ/150/RWW455_1QJ_01_bynder_defined_type_model_011742751298.jpg",
       "alt_text": "Seal Grey Black",
       "url": "womens-birchdale-ii-waterproof-jacket-seal-grey-black/",
       "width": 150,
-      "height": 150
+      "height": 150,
+      "alt": "Alternate Image 2"
     },
     {
       "image": "https://content.regatta.com/RWW455_64K/150/RWW455_64K_01_bynder_defined_type_model_011742847474.jpg",
       "alt_text": "Lilas Light Vanilla",
       "url": "womens-birchdale-ii-waterproof-jacket-lilas-light-vanilla/",
       "width": 150,
-      "height": 150
+      "height": 150,
+      "alt": "Alternate Image 3"
     },
     {
       "image": "https://content.regatta.com/RWW455_74T/150/RWW455_74T_01_bynder_defined_type_model_011742847213.jpg",
       "alt_text": "Navy Icy Morn",
-      "url": "womens-birchdale-ii-waterproof-jacket-navy-icy-morn/
-      "width 150,
-      "height": 150
+      "url": "womens-birchdale-ii-waterproof-jacket-navy-icy-morn/",
+      "width": 150,
+      "height": 150,
+      "alt": "Alternate Image 4"
     }
   ]
 }
