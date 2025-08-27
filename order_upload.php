@@ -89,7 +89,7 @@ function uploadOrders($orders) {
             $order['amount'],
             $order['shipping_price'],
             $order['items'],
-            $order['billing_address'],
+            $order['shipping_address'], // Fix: was using shipping_address instead of billing_address
             $order['billing_address'],
             $order['status'],
             $order['uploaded_at'] ?? '',
