@@ -26,19 +26,19 @@ $all_products = [];
 
 // Loop through product headers and details to create a combined array
 foreach ($product_header as $header) {
+    if ($header['status'] !== 'active') {
+        continue; // Fix: Skip products that are not active at the start of the loop
+    }
     foreach ($product_detail as $detail) {
         if ($header['id'] === $detail['id']) {                    
             if ($detail['stock'] <= 0) {
                 continue; // Skip products that are out of stock
             }
-            if (strtotime($detail['updated_at']) < strtotime($current_date)) {
+            if (strtotime($detail['updated_at']) === strtotime($current_date)) { // Fix: Checks if product was updated today by comapring currenmt with updated_at date
                 continue; // Skip products already updated today
             }
             $all_products[] = array_merge($header, $detail);
         }
-    }
-    if ($header['status'] !== 'active') {
-        continue; // Skip inactive products
     }
 }
 
