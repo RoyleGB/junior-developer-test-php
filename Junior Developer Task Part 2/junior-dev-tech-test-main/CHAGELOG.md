@@ -31,8 +31,11 @@ Implementation
 2. Added the discount percentage saving equation within the savings div
 3. Created two methods to store a size and display an alert after adding to bag.
 
+# Improvements
+1. Refactor using bootstrap
+2. using more vue components => buttons
+3. Adapt for different screen sizes
+
 
 Questions
-1. Only have one main div tag
-2. How to create Orange bit?
-3. V-loops? v-buttons etc.
+1. Only have one main div tag?
